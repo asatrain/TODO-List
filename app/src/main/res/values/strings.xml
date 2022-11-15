@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TODO List</string>
+    <string-array name="notificationBeforeHours">
+        <item>No</item>
+        <item>10 minutes before</item>
+        <item>30 minutes before</item>
+    </string-array>
+</resources>

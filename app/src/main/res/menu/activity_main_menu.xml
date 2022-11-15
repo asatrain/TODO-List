@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_baseline_sort"
+        android:title="Sort"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/action_sort_ascending"
+                android:title="By date ascending" />
+            <item
+                android:id="@+id/action_sort_descending"
+                android:title="By date descending" />
+
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/ic_baseline_filter_list"
+        android:title="Filter"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_show_all"
+                android:title="All" />
+            <item
+                android:id="@+id/action_show_uncompleted"
+                android:title="Uncompleted" />
+            <item
+                android:id="@+id/action_show_completed"
+                android:title="Completed" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/hideOverdue"
+        android:checkable="true"
+        android:title="Hide overdue" />
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never" />
+
+</menu>
